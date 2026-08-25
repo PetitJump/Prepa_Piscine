@@ -1,0 +1,1 @@
+/// Ecrire une fonction qui alloue puis copie str1 dans str2

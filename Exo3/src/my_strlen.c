@@ -1,0 +1,1 @@
+/// Ecrire une fonction qui renvoie la taille de la string entrée
