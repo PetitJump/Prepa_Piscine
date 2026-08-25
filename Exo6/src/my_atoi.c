@@ -1,0 +1,1 @@
+/// Ecrire une fonction qui prend une string en entrée et qui te renvoie un entier : "123" -> 123
