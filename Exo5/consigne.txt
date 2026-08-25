@@ -1,0 +1,13 @@
+Dans cet exo on va s'attaquer aux listes chainées.
+
+Une liste chainée est principalement utilisée pour sa modularité car on peut 
+y ajouter ou supprimer des éléments facilement.
+En revanche, cela a un impacte sur la gestion de la mémoire car ajouter un noeud
+nécessite d'allouer de la mémoire.
+
+Dans cet exercice tu apprendras à manipuler les listes chainées.
+Dans des fichiers différents, tu vas :
+    - faire une fonction pour ajouter un noeud au debut de la liste (pushfront)
+    - faire une fonction pour supprimer un noeud
+    - faire une fonction pour ajouter un noeud a la fin de la liste (pushback)
+    - faire une fonction pour echanger 2 noeuds de position
