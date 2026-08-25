@@ -1,0 +1,10 @@
+Dans cet exo on va s'attaquer aux structures.
+Tu vas devoir creer 3 structures :
+    - info_t contient le nom, le prenom, l'age et statut_t
+    - statut_t contient la profession, le salaire et entreprise_t
+    - entreprise_t contient le nom, le nombre d'employé et le nom du pdg
+
+Ensuite tu vas creer un programme qui demande à l'utilisateur de donner les infos.
+Si l'entrée est display, ca affiche les infos des structures.
+Si l'entrée est new, ca redemande d'entrée des infos.
+Si l'entrée est exit ca quitte le programme.
