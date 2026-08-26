@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int strlen(char str[]){
+int my_strlen(char str[]){
     char fin = ' ';
     int i = 0;
     while(fin != '\0'){
