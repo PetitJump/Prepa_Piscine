@@ -1,9 +1,9 @@
 /// Ecrire la fonction strcmp()
 
 #include <stdio.h>
-#include "my_strlen.h"
+#include "my.h"
 
-int comparer(char str1[], char str2[]){
+int comparer(char str1[], char str2[]){ // Utiliser char* au lieu de []
     int x;
     int i = 0;
     int infini = 1;

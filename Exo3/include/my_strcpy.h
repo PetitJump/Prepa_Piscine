@@ -1,1 +1,0 @@
-void copie(char str1[], char str2[]);
