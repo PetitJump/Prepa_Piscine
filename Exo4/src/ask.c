@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "my.h"
 
-int main(void){
+void ask(void){
 
-    return 0;
 }

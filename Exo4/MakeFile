@@ -5,7 +5,8 @@ CFLAG = -Wall -Wextra
 
 CPPFLAGS = -I ./include
 
-SRC = src/ \
+SRC = src/main.c \
+	src/ask.c \
 
 NAME = fonctions
 
