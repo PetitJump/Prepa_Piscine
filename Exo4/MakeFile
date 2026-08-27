@@ -5,11 +5,7 @@ CFLAG = -Wall -Wextra
 
 CPPFLAGS = -I ./include
 
-SRC = src/main.c \
-src/my_strcmp.c \
-src/my_strcpy.c \
-src/my_strdup.c \
-src/my_strlen.c \
+SRC = src/ \
 
 NAME = fonctions
 
