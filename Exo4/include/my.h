@@ -21,7 +21,7 @@ typedef struct{
     statut_t status;
 } info_t;
 
-void putstr(char *chr);
-void putnbr(int nbr);
+void my_putstr(char *chr);
+void my_putnbr(int nbr);
 
 #endif
