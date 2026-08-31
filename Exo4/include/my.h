@@ -23,5 +23,6 @@ typedef struct{
 
 void my_putstr(char *chr);
 void my_putnbr(int nbr);
+int comparer(char str1[], char str2[]);
 
 #endif
