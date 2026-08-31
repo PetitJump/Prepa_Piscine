@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "my.h"
 
-int comparer(char str1[], char str2[]){ // Utiliser char* au lieu de []
+int compare(char str1[], char str2[]){ // Utiliser char* au lieu de []
     int x;
     int i = 0;
     int infini = 1;

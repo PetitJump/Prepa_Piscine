@@ -3,17 +3,17 @@
 
 int main(void){
     while(1){
-        char *reponse = ask();
+        char *answer = ask();
 
-        if(comparer(reponse, "display") == 0){
-
-        }
-        
-        if(comparer(reponse, "new") == 0){
+        if(compare(answer, "display") == 0){
 
         }
 
-        if(comparer(reponse, "exit") == 0)
+        if(compare(answer, "new") == 0){
+
+        }
+
+        if(compare(answer, "exit") == 0)
             break;
     }
     return 0;
