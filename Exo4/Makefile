@@ -8,6 +8,7 @@ CPPFLAGS = -I ./include
 SRC = src/main.c \
 	src/ask.c \
 	src/my_put.c \
+	src/my_strcmp.c \
 
 NAME = main
 
