@@ -4,7 +4,7 @@
 #include "my.h"
 
 int main(void){
-    info_t information;
+    info_t information = create();
     while(1){
         my_putstr("Please do a choice (display, new, exit): ");
         char *answer = askstr();    
