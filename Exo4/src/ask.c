@@ -13,8 +13,8 @@ char* askstr(void){
 int askint(void){
     char *str = askstr();
     int total = 0;
-    for(int i = 0; str[i] != '\0'; i++)
-        total = total * 10 + (str[i] - '0');
+    for(int i = 0; str[i] != '\n'; i++){
+        total = total * 10 + (str[i] - '0');}
         
     free(str);
     return total;
