@@ -15,10 +15,10 @@ int ifchar(char *buffer, int nb){
 int ifint(char *buffer, int nb){
     for(int i=0; i<=nb-1; i++){
         if(buffer[i] < 48 || buffer[i] > 57){
-            return 1;
+            return 0;
         }
     }
-    return 0;
+    return 1;
 }
 
 char* askstr(void){
