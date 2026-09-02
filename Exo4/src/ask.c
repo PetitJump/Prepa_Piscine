@@ -4,12 +4,12 @@
 #include "my.h"
 
 char* askstr(void){
-    char *buffer = malloc(15);
-    int nb = read(0, buffer, 14);
+    char *buffer = malloc(BUFSIZ);
+    int nb = read(0, BUFSIZ -1, 14); // -1 car on laisse la place au '\0'
     buffer[nb] = '\0';
     return buffer;
 }
-
+    
 int askint(void){
     char *str = askstr();
     int total = 0;
