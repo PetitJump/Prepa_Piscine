@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "my.h"
+#include "../include/my.h"
 
 int main(void){
     info_t information = create();

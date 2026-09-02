@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "my.h"
+#include "../include/my.h"
 
 void display(info_t info){
     my_putstr("Nom : ");

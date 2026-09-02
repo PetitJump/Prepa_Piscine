@@ -17,4 +17,5 @@ int compare(char str1[], char str2[]){ // Utiliser char* au lieu de []
             return 0;
         i++;
     }
+    return 0;
 }
