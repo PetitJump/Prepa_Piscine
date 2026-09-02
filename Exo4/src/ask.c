@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include "my.h"
 
-int ifchar(char *buffer, int nb){
-    for(int i=0; i<=nb-1; i++){
+int ifchar(char *buffer){
+    for(int i=0; buffer[i]!='\n'; i++){
         if(buffer[i] >= 48 && buffer[i] <= 57){
             return 1;
         }
@@ -12,8 +12,8 @@ int ifchar(char *buffer, int nb){
     return 0;
 }
 
-int ifint(char *buffer, int nb){
-    for(int i=0; i<=nb-1; i++){
+int ifint(char *buffer){
+    for(int i=0; buffer[i]!='\n'; i++){
         if(buffer[i] < 48 || buffer[i] > 57){
             return 0;
         }
@@ -26,8 +26,12 @@ char* askstr(void){
     int continuer = 1;
     while(continuer == 1){
         int nb = read(0, buffer, BUFSIZ -1); // -1 car on laisse la place au '\0'
+        if(nb == -1){
+            my_putstr("Error read : -1 was return");
+            return NULL;
+        }
         buffer[nb] = '\0';
-        continuer = ifchar(buffer, nb);
+        continuer = ifchar(buffer);
     }
     
     return buffer;
@@ -38,7 +42,7 @@ int askint(void){
     while(1){
         int nb = read(0, buffer, BUFSIZ -1); // -1 car on laisse la place au '\0'
         buffer[nb] = '\0';
-        if(ifint(buffer, nb) == 1)
+        if(ifint(buffer) == 1)
             break;
     }
 
