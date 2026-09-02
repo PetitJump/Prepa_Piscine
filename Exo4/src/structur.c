@@ -28,6 +28,8 @@ void display(info_t info){
     my_putstr("\n");
 }
 
+
+
 info_t create(void){
     info_t info;
     my_putstr("Nom : ");
