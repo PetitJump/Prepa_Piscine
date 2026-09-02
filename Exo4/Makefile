@@ -9,6 +9,7 @@ SRC = src/main.c \
 	src/ask.c \
 	src/my_put.c \
 	src/my_strcmp.c \
+	src/structur.c \
 
 NAME = main
 

@@ -14,7 +14,7 @@ typedef struct {
 
 } statut_t;
 
-typedef struct{
+typedef struct {
     char *nom;
     char *prenom;
     int age;
@@ -24,6 +24,9 @@ typedef struct{
 void my_putstr(char *chr);
 void my_putnbr(int nbr);
 int compare(char str1[], char str2[]);
-char* ask(void);
+char* askstr(void);
+int askint(void);
+info_t create(void);
+void display(info_t info);
 
 #endif
