@@ -7,6 +7,7 @@ CPPFLAGS = -I ./include
 
 SRC = src/main.c \
 	src/my_pushfront.c \
+	src/my_pushback.c \
 	
 NAME = main
 

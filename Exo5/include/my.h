@@ -3,8 +3,10 @@
 
 typedef struct node_s{
     int values;
-    struct Node *next;
+    struct node_s *next;
 } node_t;
 
+node_t* my_pushfront(int nb, node_t *node);
+node_t* my_pushback(int nb, node_t *node);
 
 #endif
