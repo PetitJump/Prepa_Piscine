@@ -6,7 +6,8 @@ CFLAGS = -Wall -Wextra
 CPPFLAGS = -I ./include
 
 SRC = src/main.c \
-
+	src/my_pushfront.c \
+	
 NAME = main
 
 OBJ = $(SRC:.c=.o)
