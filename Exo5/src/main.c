@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "../include/my.h"
 
 void afficher(node_t *list){ // Affiche une list chaine
@@ -16,6 +17,7 @@ int main(void){
     list = my_pushback(3, list);
     list = my_pushfront(-1, list);
     list = my_pushback(4, list);
+    list = my_delete_node(3, list);
     afficher(list);
     return 0;  
 }
