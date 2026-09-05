@@ -8,6 +8,8 @@ CPPFLAGS = -I ./include
 SRC = src/main.c \
 	src/my_pushfront.c \
 	src/my_pushback.c \
+	src/my_swap.c \
+	src/my_delete_node.c \
 	
 NAME = main
 
