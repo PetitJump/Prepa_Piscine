@@ -9,6 +9,6 @@ typedef struct node_s{
 node_t* my_pushfront(int nb, node_t *node);
 node_t* my_pushback(int nb, node_t *node);
 node_t* my_delete_node(int nb, node_t *node);
-node_t* my_swap(node_t node, int nb);
+node_t* my_swap(int nb1, int nb2, node_t *node);
 
 #endif

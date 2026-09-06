@@ -18,6 +18,7 @@ int main(void){
     list = my_pushfront(-1, list);
     list = my_pushback(4, list);
     list = my_delete_node(3, list);
+    list = my_swap(-1, 4, list);
     afficher(list);
     return 0;  
 }
