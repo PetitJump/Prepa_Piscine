@@ -5,13 +5,12 @@
 node_t* my_delete_node(int nb, node_t *node){
     if(node == NULL)
         return NULL;
-    if(node->values == nb)
-        return node->next;
-    
-    if(node->next->values == nb){
-        node->next = node->next->next;
-        return node;
-    } 
+    if(node->values == nb){
+        node_t *rendu = node->next;
+        free(node);
+        return rendu;
+    }
+
     else
         node->next = my_delete_node(nb, node->next);
     return node;
