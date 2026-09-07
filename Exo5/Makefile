@@ -10,6 +10,8 @@ SRC = src/main.c \
 	src/my_pushback.c \
 	src/my_delete_node.c \
 	src/my_swap.c \
+	src/my_display.c \
+	src/my_free.c \
 	
 NAME = main
 
