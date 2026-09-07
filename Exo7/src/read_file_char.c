@@ -1,1 +1,2 @@
 /// Ecrit une fonction qui lit un fichier qui lit un fichier caractere par caractere et les stock dans un buffer
+
