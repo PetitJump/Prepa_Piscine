@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include "../include/my.h"
 
-void afficher(node_t *list){ // Affiche une list chaine
-    while(list != NULL){
-        printf("%i ", list->values);
-        list = list->next;
+void display(node_t *list){ // Affiche une list chaine
+    node_t *copie = list;
+    while(copie != NULL){
+        printf("%i ", copie->values);
+        copie = copie->next;
     }
 }
 
@@ -19,6 +20,6 @@ int main(void){
     list = my_pushback(4, list);
     list = my_delete_node(3, list);
     list = my_swap(-1, 4, list);
-    afficher(list);
+    display(list);
     return 0;  
 }
