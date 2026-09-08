@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 
-char* read_file(char* fichier)
+char* read_file_char(char* fichier)
 {
     int fd = open(fichier, O_RDONLY); // On ouvre le fichier en mode lecture seul
     if(fd == -1)
