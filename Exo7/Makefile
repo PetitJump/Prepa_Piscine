@@ -6,6 +6,8 @@ CFLAGS = -Wall -Wextra
 CPPFLAGS = -I ./include
 
 SRC = src/main.c \
+	src/read_file_char.c \
+	src/read_file_line.c \
 	
 NAME = main
 
