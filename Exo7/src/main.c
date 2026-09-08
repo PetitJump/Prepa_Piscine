@@ -3,6 +3,7 @@
 
 int main(void)
 {
-    printf("%s", read_file("test.txt"));
+    printf("%s \n", read_file("test.txt"));
+    read_file_line("test.txt");
     return 0;
 }
