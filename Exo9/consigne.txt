@@ -1,0 +1,7 @@
+Partie 1 de printf. Tu vas faire une fonction "mini_printf" que t'appeleras dans le main pour tester.
+
+Tu dois pouvoir faire un %c %s %d/i %% et %f. Les flags doivent pouvoir se cumuler.
+
+Notions à utilisée : va_args & tableau de pointeur sur fonction (obligatoire, pas de foret de if).
+
+Fonction autorisées : write, va_start, va_arg, va_end, malloc, free
