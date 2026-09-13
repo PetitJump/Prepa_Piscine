@@ -19,6 +19,7 @@ static const fusion_t tableau[] = {
     {'i', &printf_int},
     {'d', &printf_int},
     {'s', &printf_str},
+    {'c', &printf_str},
     {'%', &printf_pourcentage},
     {'\0', NULL}
 };
