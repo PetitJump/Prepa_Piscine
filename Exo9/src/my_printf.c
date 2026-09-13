@@ -14,6 +14,8 @@ int my_printf(char* str, ...)
                 my_putnbr(va_arg(args, int));
             else if(str[i+1] == 's')
                 my_putstr(va_arg(args, char*));
+            else if(str[i+1] == '%')
+                my_putstr("%");
 
         }
         else if(i!=0){ // Pour eviter de regarder en arrière a l'index 0
