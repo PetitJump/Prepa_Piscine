@@ -1,12 +1,15 @@
 
 CC = gcc
 
-CFLAGS = -Wall -Wextra
+CFLAGS = -Wall -Wextra 
 
 CPPFLAGS = -I ./include
 
 SRC = src/main.c \
 	src/my_printf.c \
+	src/my_printf_str.c \
+	src/my_printf_int.c \
+	src/my_printf_pourcentage.c \
 	src/my_put.c \
 	
 NAME = main
