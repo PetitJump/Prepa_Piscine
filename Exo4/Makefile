@@ -6,13 +6,14 @@ CFLAGS = -Wall -Wextra
 CPPFLAGS = -I ./include
 
 SRC = src/main.c \
-	src/my_atoi.c \
-	src/my_itoa.c \
+	src/ask.c \
+	src/my_put.c \
+	src/my_strcmp.c \
+	src/structur.c \
 
-	
 NAME = main
 
-OBJ = $(SRC:.c=.o)
+OBJ = $(SRC:.c=.o) # 
 
 all: $(NAME)
 
